@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #484957;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+/* SpeedInTime */
+
+.form-speed-time .form-title {
+    font-size: 50px;
+}
+
+.form-speed-time .form-inp {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.form-speed-time .form-inp input{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border: 2px solid gray;
+    margin: 0 25px;
+    border-radius: 3px;
+    outline: 0;
+
+}
+
+.form-speed-time .form-inp label {
+    font-weight: 600;
+    font-size:25px;
+}
+
+.form-speed-time .form-inp .form-btn {
+    width: 90px;
+    height: 40px;
+    font-size: 19px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.form-speed-time .form-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-speed-time .form-cards .card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-speed-time .form-cards img {
+    width: 100px;
+}
+
+/* SpeedInTime */
+
+
+
+/* Temperature */
+.form-temperature {
+    margin-top: 100px;
+}
+
+.form-title {
+    margin-bottom: 50px;
+}
+
+.inp-cards {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+
+}
+
+.card-celsius p {
+    padding-top: 25px;
+    color: rgb(0, 185, 185);
+}
+
+.card-fahrenheit p {
+    color: rgb(0, 185, 185);
+}
+
+.card-celsius input {
+    width: 90%;
+    margin: 20px 30px 30px 30px;
+    height: 40px;
+    padding: 0 7px 0 7px;
+    border: none;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card-fahrenheit input{
+    width: 90%;
+    margin: 20px 30px 30px 30px;
+    height: 40px;
+    padding: 0 7px 0 7px;
+    background-color: rgb(206, 212, 218);
+    border: none;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+.inp-cards button {
+    width: 90%;
+    margin-bottom: 40px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Temperature */
